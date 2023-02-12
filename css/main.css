@@ -1,0 +1,16 @@
+.font{
+    color : white;
+    font-family : 'poppins'
+}
+
+.center{
+    font-size: 100px;
+    text-align: center
+}
+
+.image{
+    width: 3000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
