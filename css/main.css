@@ -5,12 +5,67 @@
 
 .center{
     font-size: 100px;
-    text-align: center
+    text-align: center;
 }
 
 .image{
-    width: 3000px;
+    width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+p{
+    font-family: 'poppins'
+}
+.container {
+    width: 10000vx;
+    height: 10000vx;
+    background-color:#253374;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #0C1647;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.gnb>li{
+    display: inline-block;
+    background: black;
+    padding: 30px;
+}
+
+.gnb>li>a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: #3a4888;
+}
+img.infinite_rotating {
+    animation: rotate_image 10s linear infinte;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
 }
