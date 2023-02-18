@@ -1,6 +1,5 @@
 .font{
     color : white;
-    font-family : 'poppins'
 }
 
 .center{
@@ -35,6 +34,7 @@ p{
     height: 100px;
     background-color: black;
     text-align: center;
+    font-family : 'VCR OSD Mono'
 }
 
 .gnb>li{
@@ -68,4 +68,8 @@ img.infinite_rotating {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.main {
+    font-family : 'VCR OSD Mono'
 }
