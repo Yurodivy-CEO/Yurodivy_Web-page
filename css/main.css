@@ -2,6 +2,12 @@
     color : white;
 }
 
+body {
+	padding-top: 100px;
+	background-color:#253374;
+	margin: 0px;
+}
+
 .center{
     font-size: 100px;
     text-align: center;
@@ -19,8 +25,8 @@ p{
     font-family: 'poppins'
 }
 .container {
-    width: 100000vx;
-    height: 100000vx;
+    width: 100vx;
+    height: 100vx;
     background-color:#253374;
 }
 
@@ -35,7 +41,7 @@ p{
 .gnb>li{
     display: inline-block;
 /*    background: black;*/
-    padding: 25px;
+    padding: 1px;
     margin: 0px;
 }
 
@@ -85,10 +91,14 @@ img.infinite_rotating {
 }
 
 .gnb {
-    width: 100%;
     background-color: #0C1647;
     font-family: 'poppins';
-    font-weight: 800;
+    font-weight: bold;
+	margin: 0px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 0px;
+	width: 100%;
 }
