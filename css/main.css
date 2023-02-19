@@ -1,10 +1,11 @@
-.font{
+.font-color{
     color : white;
 }
 
 .center{
     font-size: 100px;
     text-align: center;
+    margin: 20px;
 }
 
 .image{
@@ -18,15 +19,9 @@ p{
     font-family: 'poppins'
 }
 .container {
-    width: 10000vx;
-    height: 10000vx;
+    width: 100000vx;
+    height: 100000vx;
     background-color:#253374;
-}
-
-.header {
-    width: 100%;
-    height: 100px;
-    background-color: #0C1647;
 }
 
 .footer {
@@ -34,18 +29,22 @@ p{
     height: 100px;
     background-color: black;
     text-align: center;
-    font-family : 'VCR OSD Mono'
+    font-family : 'Retro Gaming'
 }
 
 .gnb>li{
     display: inline-block;
-    background: black;
-    padding: 30px;
+/*    background: black;*/
+    padding: 25px;
+    margin: 0px;
 }
 
 .gnb>li>a{
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+}
+a {
+    text-decoration-line: none;
 }
 
 a:link{
@@ -70,6 +69,26 @@ img.infinite_rotating {
     }
 }
 
-.main {
-    font-family : 'VCR OSD Mono'
+.main-font{
+    font-family : 'Retro Gaming'
+}
+
+.email {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.category {
+    font-size: 50px;
+}
+
+.gnb {
+    width: 100%;
+    background-color: #0C1647;
+    font-family: 'poppins';
+    font-weight: 800;
+    position: fixed;
+    top: 0px;
 }
