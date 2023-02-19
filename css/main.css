@@ -118,7 +118,8 @@ img.infinite_rotating {
     border: none;
     border-radius: 10px;
 	font-family : 'Retro Gaming';
-	background-color: white;
+	background-color: #eee;
+	color: black;
 }
 
 .category {
