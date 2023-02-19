@@ -17,6 +17,7 @@ body {
 
 .image{
     width: 1000px;
+/*	height: 1000px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,13 +69,14 @@ header{
 
 .gnb li{
 	float: left;
+	font-family : 'Retro Gaming'
 }
 
 .gnb>li>a{
 	line-height: 45px;
-	font-family: 'poppins';
+/*	font-family: 'poppins';*/
 	font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 	padding: 0 30px;
     text-decoration: none;
 	display: block;
@@ -115,6 +117,8 @@ img.infinite_rotating {
     font-size: 15px;
     border: none;
     border-radius: 10px;
+	font-family : 'Retro Gaming';
+	background-color: white;
 }
 
 .category {
