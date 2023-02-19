@@ -12,6 +12,7 @@ body {
     font-size: 100px;
     text-align: center;
     margin: 20px;
+	font-family : 'Retro Gaming'
 }
 
 .image{
@@ -32,23 +33,53 @@ p{
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color: black;
     text-align: center;
     font-family : 'Retro Gaming'
 }
 
-.gnb>li{
-    display: inline-block;
-/*    background: black;*/
-    padding: 1px;
-    margin: 0px;
+.header-wrapper {
+	width: 1170px;
+	margin: 0;
+}
+
+.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header{
+	height: 75px;
+	background-color: #0C1647;
+	border: 1px solid #0C1647;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+
+.gnb {
+	float: left;
+	list-style-type: none;
+}
+
+.gnb li{
+	float: left;
 }
 
 .gnb>li>a{
-    font-size: 20px;
+	line-height: 45px;
+	font-family: 'poppins';
+	font-weight: bold;
+    font-size: 25px;
+	padding: 0 30px;
     text-decoration: none;
+	display: block;
 }
+
 a {
     text-decoration-line: none;
 }
@@ -75,8 +106,8 @@ img.infinite_rotating {
     }
 }
 
-.main-font{
-    font-family : 'Retro Gaming'
+.main{
+	
 }
 
 .email {
@@ -90,15 +121,7 @@ img.infinite_rotating {
     font-size: 50px;
 }
 
-.gnb {
-    background-color: #0C1647;
-    font-family: 'poppins';
-    font-weight: bold;
-	margin: 0px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0px;
-	width: 100%;
+.footer-p {
+	font-family: 'poppins';
+	font-size: 20px;
 }
