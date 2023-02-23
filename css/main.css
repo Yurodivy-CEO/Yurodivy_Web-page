@@ -67,8 +67,8 @@ transform : rotate(0.04deg);
 }
 
 body {
-	padding-top: 100px;
-	background-color:#253374;
+	padding-top: 57px;
+/*	background-color:#253374;*/
 	margin: 0px;
 }
 
@@ -94,7 +94,8 @@ p{
 .container {
     width: 100vx;
     height: 100vx;
-    background-color:#253374;
+	background: radial-gradient(#8BC3E7,#ECE597)
+/*    background-color:#253374;*/
 }
 
 .footer {
