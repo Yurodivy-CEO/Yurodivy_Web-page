@@ -76,8 +76,10 @@ body {
 	width: 100%;
     font-size: 100px;
     text-align: center;
-    margin: 20px;
-	font-family : 'retro gaming'
+	font-family : 'retro gaming';
+	padding: 1px;
+	margin-top: 60px;
+	margin-bottom: 20px;
 }
 
 .image{
@@ -92,16 +94,17 @@ p{
     font-family: 'poppins'
 }
 .container {
-    width: 100vx;
+	width: 100vx;
     height: 100vx;
-	background: radial-gradient(#8BC3E7,#ECE597)
+	background: radial-gradient(#ECE597 10%,#8BC3E7 30%,#253374 80%);
+	padding: 1px;
 /*    background-color:#253374;*/
 }
 
 .footer {
     width: 100%;
     height: 200px;
-    background-color: black;
+/*    background-color: black;*/
     text-align: center;
     font-family : 'Retro Gaming'
 }
@@ -194,11 +197,14 @@ img.infinite_rotating {
 	width: 100%;
 	max-width: 1000px;
 	margin: auto;
+	display: flex;
+	list-style-type: none;
 }
 
 .category div {
 	float: left;
 	width: 30%;
+	align-content: center;
 }
 
 .footer-p {
